@@ -9,10 +9,10 @@ app.use(cors());
 app.use(express.json());
 
 const pool = mysql.createPool({
-  host: 'bogor.gusti.id',
-  user: 'pusatttt_uastian',
-  password: 'pusatttt_uastian',
-  database: 'pusatttt_uastian',
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'hok',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
